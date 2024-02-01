@@ -1,0 +1,23 @@
+
+1. install node modules
+npm init -y
+
+2. create a folder named src and create file server.ts
+
+3. install express, 
+    npm i express
+
+4. install typescript
+    npm install typescript --save-dev
+
+5. install express types
+    npm install @types/express --save-dev
+
+6. install node types
+   npm install typescript ts-node @types/node --save-dev
+
+7. create tsconfig.json
+    npx tsc --init
+
+8. in package.json add into scripts:
+     "start": "ts-node-dev --respawn --transpile-only ./src/{name_of_file}.ts"
